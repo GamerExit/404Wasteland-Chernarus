@@ -36,14 +36,14 @@ class Mission
 	randomSeed=10079095;
 	class Intel
 	{
-		briefingName="404Wasteland - Chernarus [v2.9a]";
-		briefingDescription="Wasteland is a harsh survival sandbox";
+		briefingName="Gamer Exit - Wasteland [v2.9.3a]";
+		briefingDescription="Wasteland is a harsh survival sandbox.";
 		resistanceWest=0;
 		startWeather=0.25;
 		forecastWeather=0.25;
 		year=2020;
 		month=7;
-		day=1;
+		day=5;
 		hour=8;
 		minute=0;
 	};
