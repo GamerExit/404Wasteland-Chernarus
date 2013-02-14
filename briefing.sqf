@@ -223,7 +223,7 @@ player createDiaryRecord["changelog",
 		[Enhancement] - General mission optimizations; many changes to improve performance.<br/>
 		[Enhancement] - Made some changes to defend area to make the AI more aware.<br/>
 		[Enhancement] - The mission system is now all pre compiled and steamlined to make it run smoother.<br/>
-		[Enhancement] - Mission will no longer run the same one twice.<br/>  
+		[Enhancement] - Mission will no longer run the same one twice.<br/> 
 "
 ]
 ];
