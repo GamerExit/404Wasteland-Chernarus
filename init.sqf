@@ -14,7 +14,10 @@ X_Server = false;
 X_Client = false;
 X_JIP = false;
 hitStateVar = false;
-versionName = "v2.9a";
+versionName = "v2.9.3a";
+if (!isDedicated) then {
+	execVM "x_init_backback.sqf";
+};
 
 if(isServer) then { X_Server = true;};
 if(!isDedicated) then { X_Client = true;};
