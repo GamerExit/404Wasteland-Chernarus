@@ -52,13 +52,13 @@ if(str(playerSide) in ["GUER"]) then
 _player addrating 1000000;
 _player switchMove "amovpknlmstpsraswpstdnon_gear";
 
-thirstLevel = 100;
-hungerLevel = 100;
+thirstLevel = 150;
+hungerLevel = 150;
 
-_player setVariable["cmoney",100,false];
-_player setVariable["canfood",1,false];
+_player setVariable["cmoney",200,false];
+_player setVariable["canfood",2,false];
 _player setVariable["medkits",0,false];
-_player setVariable["water",1,false];
+_player setVariable["water",2,false];
 _player setVariable["fuel",0,false];
 _player setVariable["repairkits",0,false];
 _player setVariable["fuelFull", 0, false];
