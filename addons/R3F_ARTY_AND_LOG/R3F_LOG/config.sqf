@@ -191,12 +191,12 @@ R3F_LOG_CFG_transporteurs = [
 	["Kamaz_Base", 50],
 	["MAZ_543_SCUD_Base_EP1", 10],
 	["MtvrRefuel", 10],
-	["MTVR", 50],
+	["MTVR", 100],
 	["GRAD_Base", 10],
-	["Ural_Base", 35],
-	["Ural_ZU23_Base", 20],
-	["Ural_CDF", 50],
-	["Ural_INS", 50],
+	["Ural_Base", 50],
+	["Ural_ZU23_Base", 30],
+	["Ural_CDF", 75],
+	["Ural_INS", 75],
 	["UralRefuel_Base", 10],
 	["V3S_Refuel_TK_GUE_EP1", 10],
 	["V3S_Civ", 50],
@@ -383,7 +383,12 @@ R3F_LOG_CFG_objets_transportables =  [
 	["Ka137_Base_PMC", 15],
 
 	["BAF_L2A1_ACOG_base", 4],
-	["GMG_TriPod", 4]
+	["GMG_TriPod", 4],
+	["Fort_Nest_M240", 8],
+	["Misc_cargo_cont_net3", 10],
+	["Land_Misc_Well_L_EP1", 5],
+	["camp_us1", 20],
+	["Land_Ind_SawMillPen", 50]
 ];
 
 /****** MOVABLE-BY-PLAYER OBJECTS / OBJETS DEPLACABLES PAR LE JOUEUR ******/
@@ -499,7 +504,14 @@ R3F_LOG_CFG_objets_deplacables = [
 	"Land_leseni4x",
 	"Wall_L_2m5_EP1",
 	"ATV_Base_EP1",
-	"Motorcycle"
+	"Motorcycle",
+	"Land_radar_EP1",
+	"Land_vez",
+	"Fort_Nest_M240",
+	"Misc_cargo_cont_net3",
+	"Land_Misc_Well_L_EP1",
+	"camp_us1",
+	"Land_Ind_SawMillPen"
 ];
 
 /*
