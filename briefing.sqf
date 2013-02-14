@@ -1,5 +1,5 @@
-player createDiarySubject ["404games", "404Games Information"];
-player createDiarySubject ["changelog", "404Games Change Log"];
+player createDiarySubject ["gamerexit", "Gamer Exit Information"];
+player createDiarySubject ["changelog", "Gamer Exit Change Log"];
 player createDiarySubject ["wasteland", "What is Wasteland?"];
 
 player createDiaryRecord["changelog",
@@ -207,13 +207,52 @@ player createDiaryRecord["changelog",
 "2.9",
 "
 <br/>
-		[Added] - Most interactions have a Cancel Action option now.<br/>
 		[Fixed] - Abandoned Truck showing up as recon vehicle.<br/>
-		[Fixed] - Object lock now functions correctly.<br/>
-		[Fixed] - Spawn beacon, radar, object etc unlock/lock actions now stop on death.<br/>    
 		[Fixed] - The mission RPT errors.<br/>
 		[Fixed] - The vehicle count RPT error.<br/>
 		[Fixed] - mission_Outpost timeout.<br/>
+		[Improved] - The mission RPT's to have more information to help with debuging.<br/>
+		[Improved] - Made some changes to defend area to make the AI more aware.<br/>
+		[Improved] - The mission system is now all pre compiled and steamlined to make it run smoother.<br/>
+		[Improved] - Mission will no longer run the same one twice.<br/>
+"
+]
+];
+
+player createDiaryRecord["changelog",
+[
+"2.9.1",
+"
+<br/>
+		[Added] - Backpack - carry a extra primary weapon.<br/>
+		[Added] - Random weapon and items spawning in buildings.<br/>
+		[Added] - [GE] Branding.<br/>
+		[Added] - Configurable weapon selling prices to Gun Store.<br/>
+		[Changed] - Thirst and Hunger levels to 150.<br/>
+		[Changed] - Money start level to 200.<br/>
+"
+]
+];
+
+player createDiaryRecord["changelog",
+[
+"2.9.2",
+"
+<br/>
+		[Changed] - Loading splash screen.<br/>
+		[Removed] - Random weapon and items spawning in buildings.<br/>
+"
+]
+];
+
+player createDiaryRecord["changelog",
+[
+"2.9.3",
+"
+<br/>
+		[Added] - Most interactions have a Cancel Action option now.<br/>
+		[Fixed] - Object lock now functions correctly.<br/>
+		[Fixed] - Spawn beacon, radar, object etc unlock/lock actions now stop on death.<br/>    
 		[Changed] - Gun and General stores no longer have over-powered super radars.<br/>
 		[Changed] - Player now starts with only 1x food and water.<br/>
 		[Changed] - Added more variation to vehicle weapons spawns and removed OP weapons.<br/>
@@ -221,14 +260,11 @@ player createDiaryRecord["changelog",
 		[Enhancement] - The mission RPT's to have more information to help with debuging.<br/>
 		[Enhancement] - Server startup optimizations.<br/>
 		[Enhancement] - General mission optimizations; many changes to improve performance.<br/>
-		[Enhancement] - Made some changes to defend area to make the AI more aware.<br/>
-		[Enhancement] - The mission system is now all pre compiled and steamlined to make it run smoother.<br/>
-		[Enhancement] - Mission will no longer run the same one twice.<br/> 
 "
 ]
 ];
 
-player createDiaryRecord["404games",
+player createDiaryRecord["gamerexit",
 [
 "Credits",
 "
@@ -240,29 +276,30 @@ player createDiaryRecord["404games",
 	Developer - Costlyy<br/>
     Developer - Pulse<br/>
 	Server Host - Domuk<br/>
+	
 "
 ]
 ];
 
-player createDiaryRecord["404games",
+player createDiaryRecord["gamerexit",
 [
 "Bug and Cheat Reporting",
 "
 <br/>
-	Found a bug? Please report it at: http://www.404games.co.uk/bugs<br/><br/>
+	Found a bug? Please report it at: http://gamerexit.com/forums/ge-wasteland-server.99/<br/><br/>
 	Suspect a player is hacking or exploiting? Please report it at: http://www.404games.co.uk/bans<br/><br/>
 	Please remeber this game-mode is in continuous development and there will be bugs. 
 "
 ]
 ];
 
-player createDiaryRecord["404games",
+player createDiaryRecord["gamerexit",
 [
 "Teamspeak",
 "
 <br/>
 	There is a public Teamspeak 3 server available for players of this server.<br/><br/>
-	Teamspeak IP: ts.404games.co.uk<br/><br/>
+	Teamspeak IP: gamerexit.com<br/><br/>
 	Please join and say hello! (Please speak English)
 "
 ]
@@ -288,7 +325,7 @@ player CreateDiaryRecord["wasteland",
 [
 "WELCOME TO THE WASTELAND",
 "
-The Wasteland is a team versus team versus team sandbox survival experience. The objective of this mission is to rally your faction, scavenge supplies, weapons, and vehicles, and destroy the other factions. It is survival at its best! Keep in mind this is a work in progress, please direct your reports to 404Games.
+The Wasteland is a team versus team versus team sandbox survival experience. The objective of this mission is to rally your faction, scavenge supplies, weapons, and vehicles, and destroy the other factions. It is survival at its best! Keep in mind this is a work in progress, please direct your reports to Gamer Exit.
 <br/><br/>
 
 FAQ<br/>
@@ -311,7 +348,7 @@ Q. Whats with the teapots and big bags?<br/>
 A. This game has a food and water system that you must stay on top of if you hope to survive. You can collect food and water from water barrels, food stands, or dead players bodies. Food and water will randomly spawn around the map. Other items that will randomly spawn are fuel cans for refueling vehicles, medkits for healing yourself, and repair kits for repairing vehicles. Each of these is a one-time-only use item.
 <br/><br/>
 Q. I saw someone breaking a rule, what do I do?<br/>
-A. Simply go into global chat and get the attention of one of the admins or visit www.404games.co.uk/forum and make a report if the offence is serious.
+A. Simply go into global chat and get the attention of one of the admins or visit http://gamerexit.com/forums/ge-wasteland-server.99/ and make a report if the offence is serious.
 <br/>
 "]
 ];
